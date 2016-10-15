@@ -28,6 +28,7 @@
     "source-map-loader": "^0.1.5",
     "ts-loader": "^0.9.1",
     "typescript": "^2.0.3",
+    "uglify-js-plugin": "0.0.5",
     "webpack": "^1.13.2"
   }
 }
