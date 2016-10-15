@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/ngergo6/morrowind-alchemist#readme",
   "dependencies": {
-    "node-static": "^0.7.9"
+    "@types/react": "^0.14.41",
+    "@types/react-dom": "^0.14.18",
+    "node-static": "^0.7.9",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "source-map-loader": "^0.1.5",
