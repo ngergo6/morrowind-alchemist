@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "webpack",
     "start": "node index.js"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "homepage": "https://github.com/ngergo6/morrowind-alchemist#readme",
   "dependencies": {
     "node-static": "^0.7.9"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.9.1",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
   }
 }
