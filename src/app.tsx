@@ -1,12 +1,25 @@
 import * as React from "react";
-import {} from "react-router";
+import { Link } from "react-router";
+
+import { IngridientsPage } from "./ingridients-page";
 
 export interface AppProps {
 
 }
 
 export class App extends React.Component<AppProps, {}> {
-    render(){
-        return (<h1>this is my app</h1>);
+    private alertMe(stuff: string) {
+        console.log(stuff);
+    }
+
+    render() {
+        return (
+            <div className="container">
+                <h5>Morrowind Alchemy Helper</h5>
+                <Link to="ingridients">Ingridients</Link>
+                
+                {this.props.children}
+            </div>
+        );
     }
 }
