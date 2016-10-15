@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/ngergo6/morrowind-alchemist#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.4",
     "css-loader": "^0.25.0",
     "node-static": "^0.7.9",
     "react": "^15.3.2",
