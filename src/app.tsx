@@ -11,7 +11,7 @@ export class App extends React.Component<AppProps, {}> {
             <div className="container">
                 <h5>Morrowind Alchemy Helper</h5>
                 <div className="row">
-                    <Link className="btn btn-info" to="ingridients">Ingridients</Link>
+                    <Link className="btn btn-info" to="ingridients">Ingridients</Link> 
                     <Link className="btn btn-info" to="effects">Effects</Link>
                 </div>
 
