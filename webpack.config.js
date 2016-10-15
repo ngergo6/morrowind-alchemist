@@ -20,12 +20,6 @@ module.exports = {
                 warnings: false
             }
         }),
-        new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery",
-            Tether: "tether",
-            tether: "tether"
-        })
     ],
 
     module: {
@@ -33,7 +27,9 @@ module.exports = {
             // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             { test: /\.tsx?$/, loader: "ts-loader" },
             // load css files
-            { test: /\.css$/, loader: "style-loader!css-loader" }
+            { test: /\.css$/, loader: "style-loader!css-loader" },
+            // load json files
+            { test: /\.json$/, loader: "json-loader" }
         ],
 
         preLoaders: [
