@@ -11,7 +11,7 @@ export interface IngridientsPageState {
 export class IngridientsPage extends React.Component<IngridientsPageProps, IngridientsPageState> {
 
     public render() {
-        return <h1>page</h1>;
+        return <h1>ingridients page</h1>;
     }
         
 }
