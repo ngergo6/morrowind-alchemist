@@ -12,28 +12,28 @@ const effects: IEffect[] = [
     {
         name: "blind",
         title: "Blind",
-        description: "description goes here",
+        description: "Causes the target's vision to be obscured, making it harder for them to see. The Magnitude is the degree of blindness. At 100%, they will be completely unable to see anything. However, as a hostile effect, they will still try to find and attack you. If you are within melee range, they may still be able to attack and hit you. If you attack a blinded opponent, they may attempt to flee. A blinded object (should) have a lower hit rate and a decreased ability to spot sneaking targets.",
         logo: "/img/effects/blind.jpg",
         school: "Illusion",
-        formula: "",
+        formula: "Blind M% for D seconds",
         isHarmful: true
     },
     {
         name: "burden",
         title: "Burden",
-        description: "",
+        description: "Increases the target's encumbrance by M points for D seconds. If Burden pushes the encumbrance level past its maximum value, the target becomes immobile, and will be an easy target for pounding with ranged weapons, spells, or high-reach melee weapons.",
         logo: "/img/effects/burden.jpg",
-        school: "",
-        formula: "",
+        school: "Alteration",
+        formula: "Burden M points for D seconds",
         isHarmful: true
     },
     {
         name: "cure-blight-disease",
         title: "Cure Blight Disease",
-        description: "",
+        description: "Removes the effects of Blight Disease from the target. This effect is absolutely vital to have if you explore the Ashlands, Molag Amur, or Red Mountain regions, as blighted creatures are common there, and some blight diseases can be quite debilitating. (Black-Heart Blight in particular can stop you dead in your tracks by reducing your Strength and causing you to become encumbered and unable to move.)",
         logo: "/img/effects/cure-blight-disease.jpg",
-        school: "",
-        formula: "",
+        school: "Restoration",
+        formula: "Cure Blight Disease",
         isHarmful: false
     },
     {
