@@ -4,6 +4,9 @@ import {
     getAll as getAllEffects,
     IEffect
 } from "./data/effects";
+import {
+    Table, Column, LinkColumn
+} from "./components/table";
 
 export interface EffectsPageProps {
 
@@ -37,7 +40,11 @@ export class EffectsPage extends React.Component<EffectsPageProps, EffectsPageSt
                     <SearchBox placeholder="Search effects" onSearched={this.filterEffects.bind(this)} />
                 </div>
                 <div className="row">
-                    {this.effects.map(e => e.title).join(", ")}
+                    <Table data={this.state.displayEffects}>
+                        <LinkColumn header="Name" property="title" linkTo="effect/{name}" />
+                        <Column header="School" property="school" />
+                        <Column header="Harmful" property="isHarmful" />
+                    </Table>
                 </div>
             </div>
         );
