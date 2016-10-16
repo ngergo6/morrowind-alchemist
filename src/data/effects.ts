@@ -4,6 +4,7 @@ export interface IEffect {
     description: string;
     logo: string;
     school: string;
+    formula: string;
     isHarmful: boolean;
 }
 
@@ -13,7 +14,8 @@ const effects: IEffect[] = [
         title: "Blind",
         description: "description goes here",
         logo: "/img/effects/blind.jpg",
-        school: "illusion",
+        school: "Illusion",
+        formula: "",
         isHarmful: true
     },
     {
@@ -22,6 +24,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/burden.jpg",
         school: "",
+        formula: "",
         isHarmful: true
     },
     {
@@ -30,6 +33,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/cure-blight-disease.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -38,6 +42,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/cure-common-disease.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -46,6 +51,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/cure-paralyzation.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -54,7 +60,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/damage-fatigue.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "damage-health",
@@ -62,7 +69,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/damage-health.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "damage-intelligence",
@@ -70,7 +78,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/damage-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "damage-magicka",
@@ -78,7 +87,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/damage-magicka.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "detect-animal",
@@ -86,6 +96,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/detect-animal.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -94,6 +105,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/detect-enchantment.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -102,6 +114,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/detect-key.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -110,6 +123,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/dispel.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -118,7 +132,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-skill.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-agility",
@@ -126,7 +141,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-endurance",
@@ -134,7 +150,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-fatigue",
@@ -142,7 +159,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-fatigue.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-health",
@@ -150,7 +168,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-health.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-intelligence",
@@ -158,7 +177,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-luck",
@@ -166,7 +186,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-magicka",
@@ -174,7 +195,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-magicka.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-personality",
@@ -182,7 +204,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-speed",
@@ -190,7 +213,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-strength",
@@ -198,7 +222,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "drain-willpower",
@@ -206,7 +231,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/drain-attribute.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "feather",
@@ -214,6 +240,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/feather.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -222,6 +249,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fire-shield.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -230,6 +258,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -238,6 +267,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attack.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -246,6 +276,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -254,6 +285,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-fatigue.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -262,6 +294,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-health.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -270,6 +303,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -278,6 +312,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -286,6 +321,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-magicka.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -294,6 +330,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-maximum-magicka.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -302,6 +339,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -310,6 +348,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -318,6 +357,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -326,6 +366,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/fortify-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -334,7 +375,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/frost-damage.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "frost-shield",
@@ -342,6 +384,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/frost-shield.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -350,6 +393,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/invisibility.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -358,6 +402,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/levitate.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -366,6 +411,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/light.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -374,6 +420,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/lightning-shield.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -382,6 +429,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/night-eye.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -390,7 +438,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/paralyze.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "poison",
@@ -398,7 +447,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/poison.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "recall",
@@ -406,6 +456,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/recall.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -414,6 +465,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/reflect.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -422,6 +474,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-common-disease.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -430,6 +483,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-fire.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -438,6 +492,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-frost.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -446,6 +501,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-magicka.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -454,6 +510,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-paralysis.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -462,6 +519,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-poison.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -470,6 +528,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/resist-shock.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -478,6 +537,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -486,6 +546,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -494,6 +555,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-fatigue.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -502,6 +564,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-health.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -510,6 +573,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -518,6 +582,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -526,6 +591,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-magicka.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -534,6 +600,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -542,6 +609,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -550,6 +618,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -558,6 +627,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/restore-attribute.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -566,6 +636,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/spell-absorption.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -574,6 +645,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/swift-swim.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -582,6 +654,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/telekinesis.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -590,7 +663,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/vampirism.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "water-breathing",
@@ -598,6 +672,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/water-breathing.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -606,6 +681,7 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/water-walking.jpg",
         school: "",
+        formula: "",
         isHarmful: false
     },
     {
@@ -614,7 +690,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/weakness-to-fire.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     },
     {
         name: "weakness-to-poison",
@@ -622,7 +699,8 @@ const effects: IEffect[] = [
         description: "",
         logo: "/img/effects/weakness-to-poison.jpg",
         school: "",
-        isHarmful: false
+        formula: "",
+        isHarmful: true
     }
 ];
 

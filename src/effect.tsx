@@ -24,6 +24,7 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                 logo: "",
                 name: "",
                 school: "",
+                formula: "",
                 title: ""
             }
         }
@@ -46,6 +47,8 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                         <h3>{this.state.effect.title}</h3>
                     </div>
                 </div>
+
+                <p>{this.state.effect.formula}</p>
 
                 <ul>
                     <li>School: {this.state.effect.school}</li>
