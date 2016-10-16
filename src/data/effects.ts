@@ -39,10 +39,10 @@ const effects: IEffect[] = [
     {
         name: "cure-common-disease",
         title: "Cure Common Disease",
-        description: "",
+        description: "Removes the effects of Common Disease from the target. This effect is generally a good idea to have available wherever you go, as diseased creatures are everywhere, and some diseases are somewhat debilitating. This is less of an issue if you are one of the races that has natural disease resistance (Altmer, Argonian, Bosmer, or Redguard), but even for them it is still wise to have access to this in case of emergency. Of particular note is the Porphyric Hemophilia disease, which will turn into Vampirism if not cured within 3 days of contracting it. If you do not wish to become a vampire, you will need to cure yourself before this happens.",
         logo: "/img/effects/cure-common-disease.jpg",
-        school: "",
-        formula: "",
+        school: "Restoration",
+        formula: "Cure Common Disease",
         isHarmful: false
     },
     {
