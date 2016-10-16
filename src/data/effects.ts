@@ -11,7 +11,7 @@ const effects: IEffect[] = [
     {
         name: "blind",
         title: "Blind",
-        description: "",
+        description: "description goes here",
         logo: "",
         school: "illusion",
         isHarmful: true
@@ -628,4 +628,8 @@ const effects: IEffect[] = [
 
 export function getAll() {
     return effects;
+}
+
+export function getByName(name: string): IEffect {
+    return effects.find(e => e.name === name);
 }
