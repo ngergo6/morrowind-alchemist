@@ -38,7 +38,14 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
     public render() {
         return (
             <div>
-                <h3>{this.state.effect.title}</h3>
+                <div className="row">
+                    <div className="col-xs-1">
+                        <img src={this.state.effect.logo} alt={this.state.effect.name}/>
+                    </div>
+                    <div className="col-xs-11">
+                        <h3>{this.state.effect.title}</h3>
+                    </div>
+                </div>
 
                 <ul>
                     <li>School: {this.state.effect.school}</li>

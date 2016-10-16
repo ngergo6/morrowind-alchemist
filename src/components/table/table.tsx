@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Column, ColumnProps } from "./column";
 import { LinkColumn, LinkColumnProps } from "./link-column";
+import { ImageColumn, ImageColumnProps } from "./image-column";
 import { Link } from "react-router";
 
 export interface TableProps {
@@ -29,6 +30,9 @@ export class Table extends React.Component<TableProps, TableState> {
                 } else if (ch.type === LinkColumn) {
                     const col = ch as IRChildP<LinkColumnProps>;
                     rows.push(this.getLinkColumn(data, col, j));
+                } else if (ch.type === ImageColumn) {
+                    const col = ch as IRChildP<ImageColumnProps>;
+                    rows.push(this.getImageColumn(data, col, j));
                 }
             });
 
@@ -47,6 +51,16 @@ export class Table extends React.Component<TableProps, TableState> {
         return (
             <td key={key}>
                 <Link to={link}>{text}</Link>
+            </td>
+        );
+    }
+
+    private getImageColumn(data: any, col: IRChildP<ImageColumnProps>, key: number) {
+        const url = data[col.props.property];
+
+        return (
+            <td key={key}>
+                <img src={url} alt={url} />
             </td>
         );
     }
