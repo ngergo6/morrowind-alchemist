@@ -10,7 +10,7 @@ import {
 import {
     Table,
     Column
-} from "./Components/table";
+} from "./components/table";
 
 export interface EffectPageProps {
     params: {
