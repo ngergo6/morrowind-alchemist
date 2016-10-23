@@ -22,15 +22,25 @@ export class EffectsPage extends React.Component<EffectsPageProps, EffectsPageSt
     constructor() {
         super();
 
-        this.state = {
-            displayEffects: getAllEffects()
-        };
-
         this.effects = getAllEffects();
+
+        this.state = {
+            displayEffects: this.effects
+        };
     }
 
-    private filterEffects(filter: string) {
+    private filterEffects(filter: string): void {
+        if (!filter.length) {
+            this.setState({
+                displayEffects: this.effects
+            });
 
+            return;
+        }
+
+        const displayEffects = this.effects.filter(effect => effect.name.includes(filter));
+
+        this.setState({displayEffects});
     }
 
     public render() {

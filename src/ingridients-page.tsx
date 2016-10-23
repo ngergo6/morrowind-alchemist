@@ -30,7 +30,17 @@ export class IngridientsPage extends React.Component<IngridientsPageProps, Ingri
     }
 
     private filterEffects(filter: string) {
+        if (!filter.length) {
+            this.setState({
+                displayIngridients: this.ingridients
+            });
 
+            return;
+        }
+
+        const displayIngridients = this.ingridients.filter(ingridient => ingridient.name.includes(filter));
+
+        this.setState({ displayIngridients });
     }
 
     public render() {
