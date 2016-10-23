@@ -3,6 +3,10 @@ import {
     IEffect, 
     getByName as getEffectByName
  } from "./data/effects";
+import {
+    IIngridient,
+    getIngridientsForEffect
+} from "./data/ingridients";
 
 export interface EffectPageProps {
     params: {
@@ -12,6 +16,7 @@ export interface EffectPageProps {
 
 export interface EffectPageState {
     effect: IEffect;
+    ingridients: IIngridient[];
 }
 
 export class EffectPage extends React.Component<EffectPageProps, EffectPageState> {
@@ -26,13 +31,20 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                 school: "",
                 formula: "",
                 title: ""
-            }
+            },
+            ingridients: []
         }
     }
 
     protected componentDidMount() {
+        const effectName = this.props.params.name;
+
+        const effect = getEffectByName(effectName); 
+        const ingridients = getIngridientsForEffect(effectName);
+
         this.setState({
-            effect: getEffectByName(this.props.params.name)
+            effect: effect,
+            ingridients: ingridients
         });
     }
 
@@ -54,6 +66,9 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                     <li>School: {this.state.effect.school}</li>
                     <li>Harmful: {this.state.effect.isHarmful.toString()}</li>
                 </ul>
+
+                <p>ingridients:</p>
+                {this.state.ingridients.map((ingridient: IIngridient, index: number) => <li key={index}>{ingridient.title}</li>)}
 
                 <p>{this.state.effect.description}</p>
             </div>
