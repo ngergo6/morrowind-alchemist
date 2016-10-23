@@ -2,6 +2,7 @@ const ingridients: IIngridient[] = [
     {
         name: "adamantium-ore",
         title: "Adamantium Ore",
+        logo: "",
         weight: 50,
         expansion: "tribunal",
         value: 300,
@@ -15,6 +16,7 @@ const ingridients: IIngridient[] = [
     {
         name: "alit-hide",
         title: "Alit Hide",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 5,
@@ -28,6 +30,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ampoule-pod",
         title: "Ampoule Pod",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -41,6 +44,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ash-salts",
         title: "Ash Salts",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 25,
@@ -53,6 +57,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ash-yam",
         title: "Ash Yam",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 1,
@@ -66,6 +71,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bear-pelt",
         title: "Bear Pelt",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 2,
@@ -79,6 +85,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bittergreen-petals",
         title: "Bittergreen Petals",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 5,
@@ -92,6 +99,7 @@ const ingridients: IIngridient[] = [
     {
         name: "black-anther",
         title: "Black Anther",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -105,6 +113,7 @@ const ingridients: IIngridient[] = [
     {
         name: "black-lichen",
         title: "Black Lichen",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -118,6 +127,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bloat",
         title: "Bloat",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 5,
@@ -131,6 +141,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bonemeal",
         title: "Bonemeal",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 2,
@@ -144,6 +155,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bread",
         title: "Bread",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 2,
@@ -154,6 +166,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bristleback-leather",
         title: "Bristleback Leather",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 2,
@@ -167,6 +180,7 @@ const ingridients: IIngridient[] = [
     {
         name: "bungler's-bane",
         title: "Bungler's Bane",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 1,
@@ -180,6 +194,7 @@ const ingridients: IIngridient[] = [
     {
         name: "chokeweed",
         title: "Chokeweed",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -193,6 +208,7 @@ const ingridients: IIngridient[] = [
     {
         name: "coda-flower",
         title: "Coda Flower",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 23,
@@ -206,6 +222,7 @@ const ingridients: IIngridient[] = [
     {
         name: "comberry",
         title: "Comberry",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -219,6 +236,7 @@ const ingridients: IIngridient[] = [
     {
         name: "corkbulb-root",
         title: "Corkbulb Root",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 5,
@@ -232,6 +250,7 @@ const ingridients: IIngridient[] = [
     {
         name: "corpus-weepings",
         title: "Corpus Weepings",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 50,
@@ -245,6 +264,7 @@ const ingridients: IIngridient[] = [
     {
         name: "crab-meat",
         title: "Crab Meat",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 1,
@@ -258,6 +278,7 @@ const ingridients: IIngridient[] = [
     {
         name: "daedra-skin",
         title: "Daedra Skin",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 200,
@@ -271,6 +292,7 @@ const ingridients: IIngridient[] = [
     {
         name: "daedra's-heart",
         title: "Daedra's Heart",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 200,
@@ -284,6 +306,7 @@ const ingridients: IIngridient[] = [
     {
         name: "diamond",
         title: "Diamond",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 250,
@@ -297,6 +320,7 @@ const ingridients: IIngridient[] = [
     {
         name: "dreugh-wax",
         title: "Dreugh Wax",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 100,
@@ -310,6 +334,7 @@ const ingridients: IIngridient[] = [
     {
         name: "durzog-meat",
         title: "Durzog Meat",
+        logo: "",
         weight: 2,
         expansion: "tribunal",
         value: 7,
@@ -323,6 +348,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ectoplasm",
         title: "Ectoplasm",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -336,6 +362,7 @@ const ingridients: IIngridient[] = [
     {
         name: "emerald",
         title: "Emerald",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 150,
@@ -349,6 +376,7 @@ const ingridients: IIngridient[] = [
     {
         name: "fire-petal",
         title: "Fire Petal",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -362,6 +390,7 @@ const ingridients: IIngridient[] = [
     {
         name: "fire-salts",
         title: "Fire Salts",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 100,
@@ -375,6 +404,7 @@ const ingridients: IIngridient[] = [
     {
         name: "flaming-eye-of-the-lightkeeper",
         title: "Flaming Eye of the Lightkeeper",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 15,
@@ -388,6 +418,7 @@ const ingridients: IIngridient[] = [
     {
         name: "frost-salts",
         title: "Frost Salts",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 75,
@@ -401,6 +432,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ghoul-heart",
         title: "Ghoul Heart",
+        logo: "", 
         weight: 0.5,
         expansion: "morrowind",
         value: 150,
@@ -413,6 +445,7 @@ const ingridients: IIngridient[] = [
     {
         name: "gold-kanet",
         title: "Gold Kanet",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 5,
@@ -426,6 +459,7 @@ const ingridients: IIngridient[] = [
     {
         name: "golden-sedge-flowers",
         title: "Golden Sedge Flowers",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -439,6 +473,7 @@ const ingridients: IIngridient[] = [
     {
         name: "grahl-eyeball",
         title: "Grahl Eyeball",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 15,
@@ -452,6 +487,7 @@ const ingridients: IIngridient[] = [
     {
         name: "gravedust",
         title: "Gravedust",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -465,6 +501,7 @@ const ingridients: IIngridient[] = [
     {
         name: "gravetar",
         title: "Gravetar",
+        logo: "",
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -478,6 +515,7 @@ const ingridients: IIngridient[] = [
     {
         name: "green-lichen",
         title: "Green Lichen",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -491,6 +529,7 @@ const ingridients: IIngridient[] = [
     {
         name: "guar-hide",
         title: "Guar Hide",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 5,
@@ -504,6 +543,7 @@ const ingridients: IIngridient[] = [
     {
         name: "hack-lo-leaf",
         title: "Hack-Lo Leaf",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 30,
@@ -517,6 +557,7 @@ const ingridients: IIngridient[] = [
     {
         name: "heart-of-the-udyrfrykte",
         title: "Heart of the Udyrfrykte",
+        logo: "",
         weight: 5,
         expansion: "bloodmoon",
         value: 300,
@@ -530,6 +571,7 @@ const ingridients: IIngridient[] = [
     {
         name: "heartwood",
         title: "Heartwood",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 200,
@@ -543,6 +585,7 @@ const ingridients: IIngridient[] = [
     {
         name: "heather",
         title: "Heather",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -556,6 +599,7 @@ const ingridients: IIngridient[] = [
     {
         name: "holly-berries",
         title: "Holly Berries",
+        logo: "",
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -569,6 +613,7 @@ const ingridients: IIngridient[] = [
     {
         name: "horker-tusk",
         title: "Horker Tusk",
+        logo: "",
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -582,6 +627,7 @@ const ingridients: IIngridient[] = [
     {
         name: "horn-lily-bulb",
         title: "Horn Lily Bulb",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -595,6 +641,7 @@ const ingridients: IIngridient[] = [
     {
         name: "hound-meat",
         title: "Hound Meat",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 2,
@@ -608,6 +655,7 @@ const ingridients: IIngridient[] = [
     {
         name: "human-flesh",
         title: "Human flesh",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 1,
@@ -620,6 +668,7 @@ const ingridients: IIngridient[] = [
     {
         name: "hypha-facia",
         title: "Hypha Facia",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -633,6 +682,7 @@ const ingridients: IIngridient[] = [
     {
         name: "kagouti-hide",
         title: "Kagouti Hide",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 2,
@@ -646,6 +696,7 @@ const ingridients: IIngridient[] = [
     {
         name: "kresh-fiber",
         title: "Kresh Fiber",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -659,6 +710,7 @@ const ingridients: IIngridient[] = [
     {
         name: "kwama-cuttle",
         title: "Kwama Cuttle",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 2,
@@ -672,6 +724,7 @@ const ingridients: IIngridient[] = [
     {
         name: "large-corprusmeat-hunk",
         title: "Large Corprusmeat Hunk",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 2,
@@ -684,6 +737,7 @@ const ingridients: IIngridient[] = [
     {
         name: "large-kwama-egg",
         title: "Large Kwama Egg",
+        logo: "",
         weight: 2,
         expansion: "morrowind",
         value: 2,
@@ -697,6 +751,7 @@ const ingridients: IIngridient[] = [
     {
         name: "large-wrapped-corprusmeat",
         title: "Large Wrapped Corprusmeat",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 0,
@@ -709,6 +764,7 @@ const ingridients: IIngridient[] = [
     {
         name: "lloramor-spines",
         title: "Lloramor Spines",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -722,6 +778,7 @@ const ingridients: IIngridient[] = [
     {
         name: "luminous-russula",
         title: "Luminous Russula",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 1,
@@ -734,6 +791,7 @@ const ingridients: IIngridient[] = [
     {
         name: "marshmerrow",
         title: "Marshmerrow",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -747,6 +805,7 @@ const ingridients: IIngridient[] = [
     {
         name: "meadow-rye",
         title: "Meadow Rye",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -760,6 +819,7 @@ const ingridients: IIngridient[] = [
     {
         name: "medium-corprusmeat-hunk",
         title: "Medium Corprusmeat Hunk",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 0,
@@ -772,6 +832,7 @@ const ingridients: IIngridient[] = [
     {
         name: "medium-wrapped-corprusmeat",
         title: "Medium Wrapped Corprusmeat",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 0,
@@ -784,6 +845,7 @@ const ingridients: IIngridient[] = [
     {
         name: "meteor-slime",
         title: "Meteor Slime",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -797,6 +859,7 @@ const ingridients: IIngridient[] = [
     {
         name: "moon-sugar",
         title: "Moon Sugar",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 50,
@@ -810,6 +873,7 @@ const ingridients: IIngridient[] = [
     {
         name: "muck",
         title: "Muck",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -823,6 +887,7 @@ const ingridients: IIngridient[] = [
     {
         name: "muffin",
         title: "Muffin",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 1,
@@ -833,6 +898,7 @@ const ingridients: IIngridient[] = [
     {
         name: "netch-leather",
         title: "Netch Leather",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 1,
@@ -846,6 +912,7 @@ const ingridients: IIngridient[] = [
     {
         name: "nirthfly-stalks",
         title: "Nirthfly Stalks",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -859,6 +926,7 @@ const ingridients: IIngridient[] = [
     {
         name: "noble-sedge-flowers",
         title: "Noble Sedge Flowers",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -872,6 +940,7 @@ const ingridients: IIngridient[] = [
     {
         name: "pearl",
         title: "Pearl",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 100,
@@ -885,6 +954,7 @@ const ingridients: IIngridient[] = [
     {
         name: "pinetear",
         title: "Pinetear",
+        logo: "",
         weight: 0.2,
         expansion: "bloodmoon",
         value: 50,
@@ -893,6 +963,7 @@ const ingridients: IIngridient[] = [
     {
         name: "poison",
         title: "Poison",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 0,
@@ -906,6 +977,7 @@ const ingridients: IIngridient[] = [
     {
         name: "racer-plumes",
         title: "Racer Plumes",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 20,
@@ -917,6 +989,7 @@ const ingridients: IIngridient[] = [
     {
         name: "rat-meat",
         title: "Rat Meat",
+        logo: "",
         weight: 1,
         expansion: "morrowind",
         value: 1,
@@ -930,6 +1003,7 @@ const ingridients: IIngridient[] = [
     {
         name: "raw-ebony",
         title: "Raw Ebony",
+        logo: "",
         weight: 10,
         expansion: "morrowind",
         value: 200,
@@ -943,6 +1017,7 @@ const ingridients: IIngridient[] = [
     {
         name: "raw-glass",
         title: "Raw Glass",
+        logo: "",
         weight: 2,
         expansion: "morrowind",
         value: 200,
@@ -956,6 +1031,7 @@ const ingridients: IIngridient[] = [
     {
         name: "raw-stahlrim",
         title: "Raw Stahlrim",
+        logo: "",
         weight: 5,
         expansion: "bloodmoon",
         value: 300,
@@ -964,6 +1040,7 @@ const ingridients: IIngridient[] = [
     {
         name: "red-lichen",
         title: "Red Lichen",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 25,
@@ -977,6 +1054,7 @@ const ingridients: IIngridient[] = [
     {
         name: "resin",
         title: "Resin",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -990,6 +1068,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ripened-belladonna-berries",
         title: "Ripened Belladonna Berries",
+        logo: "",
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -1003,6 +1082,7 @@ const ingridients: IIngridient[] = [
     {
         name: "roobrush",
         title: "Roobrush",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -1016,6 +1096,7 @@ const ingridients: IIngridient[] = [
     {
         name: "ruby",
         title: "Ruby",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 200,
@@ -1029,6 +1110,7 @@ const ingridients: IIngridient[] = [
     {
         name: "saltrice",
         title: "Saltrice",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -1042,6 +1124,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scales",
         title: "Scales",
+        logo: "",
         weight: 0,
         expansion: "morrowind",
         value: 0,
@@ -1055,6 +1138,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scamp-skin",
         title: "Scamp Skin",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -1068,6 +1152,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scathecraw",
         title: "Scathecraw",
+        logo: "",
         weight: 0,
         expansion: "morrowind",
         value: 0,
@@ -1081,6 +1166,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scrap-metal",
         title: "Scrap Metal",
+        logo: "",
         weight: 10,
         expansion: "morrowind",
         value: 20,
@@ -1094,6 +1180,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scrib-cabbage",
         title: "Scrib Cabbage",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -1107,6 +1194,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scrib-jelly",
         title: "Scrib Jelly",
+        logo: "",
         weight: 0,
         expansion: "morrowind",
         value: 0,
@@ -1120,6 +1208,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scrib-jerky",
         title: "Scrib Jerky",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 5,
@@ -1133,6 +1222,7 @@ const ingridients: IIngridient[] = [
     {
         name: "scuttle",
         title: "Scuttle",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -1146,6 +1236,7 @@ const ingridients: IIngridient[] = [
     {
         name: "shalk-resin",
         title: "Shalk Resin",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 50,
@@ -1159,6 +1250,7 @@ const ingridients: IIngridient[] = [
     {
         name: "sload-soap",
         title: "Sload Soap",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 50,
@@ -1172,6 +1264,7 @@ const ingridients: IIngridient[] = [
     {
         name: "small-corprusmeat-hunk",
         title: "Small Corprusmeat Hunk",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 0,
@@ -1183,6 +1276,7 @@ const ingridients: IIngridient[] = [
     {
         name: "small-kwama-egg",
         title: "Small Kwama Egg",
+        logo: "",
         weight: 0.5,
         expansion: "morrowind",
         value: 1,
@@ -1193,6 +1287,7 @@ const ingridients: IIngridient[] = [
     {
         name: "small-wrapped-corprusmeat",
         title: "Small Wrapped Corprusmeat",
+        logo: "",
         weight: 0.2,
         expansion: "morrowind",
         value: 0,
@@ -1205,6 +1300,7 @@ const ingridients: IIngridient[] = [
     {
         name: "snow-bear-pelt",
         title: "Snow Bear Pelt",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 2,
@@ -1218,6 +1314,7 @@ const ingridients: IIngridient[] = [
     {
         name: "snow-wolf-pelt",
         title: "Snow Wolf Pelt",
+        logo: "",
         weight: 1,
         expansion: "bloodmoon",
         value: 2,
@@ -1231,6 +1328,7 @@ const ingridients: IIngridient[] = [
     {
         name: "spore-pod",
         title: "Spore Pod",
+        logo: "",
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -1244,6 +1342,7 @@ const ingridients: IIngridient[] = [
     {
         name: "stoneflower-petals",
         title: "Stoneflower Petals",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -1257,6 +1356,7 @@ const ingridients: IIngridient[] = [
     {
         name: "sweetpulp",
         title: "Sweetpulp",
+        logo: "", 
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -1270,6 +1370,7 @@ const ingridients: IIngridient[] = [
     {
         name: "timsa-come-by-flowers",
         title: "Timsa-Come-By flowers",
+        logo: "",
         weight: 1,
         expansion: "tribunal",
         value: 1,
@@ -1283,6 +1384,7 @@ const ingridients: IIngridient[] = [
     {
         name: "trama-root",
         title: "Trama Root",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -1296,6 +1398,7 @@ const ingridients: IIngridient[] = [
     {
         name: "treated-bittergreen-petals",
         title: "Treated Bittergreen Petals",
+        logo: "", 
         weight: 0.1,
         expansion: "bloodmoon",
         value: 10,
@@ -1309,6 +1412,7 @@ const ingridients: IIngridient[] = [
     {
         name: "unripened-belladonna-berries",
         title: "Unripened Belladonna Berries",
+        logo: "", 
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -1322,6 +1426,7 @@ const ingridients: IIngridient[] = [
     {
         name: "vampire-dust",
         title: "Vampire Dust",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 200,
@@ -1335,6 +1440,7 @@ const ingridients: IIngridient[] = [
     {
         name: "violet-corprinus",
         title: "Violet Corprinus",
+        logo: "", 
         weight: 0.5,
         expansion: "morrowind",
         value: 1,
@@ -1347,6 +1453,7 @@ const ingridients: IIngridient[] = [
     {
         name: "void-salts",
         title: "Void Salts",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 100,
@@ -1360,6 +1467,7 @@ const ingridients: IIngridient[] = [
     {
         name: "wickwheat",
         title: "Wickwheat",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 1,
@@ -1373,6 +1481,7 @@ const ingridients: IIngridient[] = [
     {
         name: "willow-anther",
         title: "Willow Anther",
+        logo: "", 
         weight: 0.1,
         expansion: "morrowind",
         value: 10,
@@ -1386,6 +1495,7 @@ const ingridients: IIngridient[] = [
     {
         name: "wolf-pelt",
         title: "Wolf Pelt",
+        logo: "", 
         weight: 1,
         expansion: "bloodmoon",
         value: 2,
@@ -1399,6 +1509,7 @@ const ingridients: IIngridient[] = [
     {
         name: "wolfsbane-petals",
         title: "Wolfsbane Petals",
+        logo: "", 
         weight: 0.1,
         expansion: "bloodmoon",
         value: 5,
@@ -1414,6 +1525,7 @@ const ingridients: IIngridient[] = [
 export interface IIngridient {
     name: string;
     title: string;
+    logo: string, 
     weight: number;
     value: number;
     expansion: "morrowind" | "tribunal" | "bloodmoon",
