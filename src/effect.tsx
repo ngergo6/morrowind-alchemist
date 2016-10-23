@@ -7,6 +7,10 @@ import {
     IIngridient,
     getIngridientsForEffect
 } from "./data/ingridients";
+import {
+    Table,
+    Column
+} from "./Components/table";
 
 export interface EffectPageProps {
     params: {
@@ -67,8 +71,12 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                     <li>Harmful: {this.state.effect.isHarmful.toString()}</li>
                 </ul>
 
-                <p>ingridients:</p>
-                {this.state.ingridients.map((ingridient: IIngridient, index: number) => <li key={index}>{ingridient.title}</li>)}
+                <div className="row">
+                    <Table data={this.state.ingridients}>
+                        <Column header="" property="title" />
+                        <Column header="Ingridients" property="title" />
+                    </Table>
+                </div>
 
                 <p>{this.state.effect.description}</p>
             </div>
