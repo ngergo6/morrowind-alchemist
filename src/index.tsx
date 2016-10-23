@@ -11,7 +11,7 @@ import { EffectPage } from "./effect";
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={IngridientsPage} />
+            <IndexRoute component={EffectsPage} />
             <Route path="ingridients" component={IngridientsPage} />
             <Route path="ingridient/:name" component={IngridientPage} />
             <Route path="effects" component={EffectsPage} />

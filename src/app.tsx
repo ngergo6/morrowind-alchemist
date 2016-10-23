@@ -15,8 +15,8 @@ export class App extends React.Component<AppProps, {}> {
                 <h5>Morrowind Alchemy Helper</h5>
                 <div className="row" style={Object.assign({}, spacers.smBtnSpacer)}>
                     <div className="btn-toolbar">
-                        <Link className="btn btn-info" to="ingridients">Ingridients</Link> 
                         <Link className="btn btn-info" to="effects">Effects</Link>
+                        <Link className="btn btn-info" to="ingridients">Ingridients</Link> 
                     </div>
                 </div>
 
