@@ -1537,9 +1537,9 @@ export function getAll() {
 }
 
 export function getByName(name: string): IIngridient {
-    return ingridients.find(i => i.name === name);
+    return ingridients.find((i:IIngridient) => i.name === name);
 }
 
 export function getIngridientsForEffect(effectName: string): IIngridient[] {
-    return ingridients.filter(i => i.effects.includes(effectName));
+    return ingridients.filter((i: IIngridient) => i.effects.includes(effectName));
 }

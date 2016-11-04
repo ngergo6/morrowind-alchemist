@@ -709,5 +709,5 @@ export function getAll() {
 }
 
 export function getByName(name: string): IEffect {
-    return effects.find(e => e.name === name);
+    return effects.find((e: IEffect) => e.name === name);
 }
