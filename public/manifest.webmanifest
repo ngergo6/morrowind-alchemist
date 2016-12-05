@@ -1,0 +1,15 @@
+{
+    "name": "Morrowind Alchemy Helper",
+    "shortName": "MWAlchemy",
+    "startUrl": ".",
+    "display": "standalone",
+    "description": "Alchemy helper app for Morrowind",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "img/icons/ico200.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        }
+    ]
+}
