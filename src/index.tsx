@@ -8,6 +8,9 @@ import { IngridientPage } from "./ingridient";
 import { EffectsPage } from "./effects-page";
 import { EffectPage } from "./effect";
 
+import { register } from "./serviceWorkerRegister";
+register();
+
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={App}>
