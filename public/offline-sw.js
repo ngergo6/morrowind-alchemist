@@ -21,7 +21,46 @@ addEventListener("install", event => {
 
 addEventListener("fetch", event => {
     event.respondWith(
-        caches.match(event.request)
-            .then(response => response || fetch(event.request))
+        caches.open("v1")
+            .then(cache =>
+                cache.match(event.request)
+                    .then(response => {
+                        // found in cache
+                        return response;
+                    })
+                    .catch(() =>
+                        // not found in cache
+                        fetch(request).then(response => {
+                            if (isImage(event.request.url)) {
+                                cache.put(event.request, response);
+                            }
+
+                            return response;
+                        })
+                    )
+            )
     );
+
+    // event.respondWith(
+    //     caches.match(event.request)
+    //         .then(match => match || fetch(event.request).then(response => {
+    //             console.log(event.request);
+
+    //             const url = event.request.url;
+
+    //             if (url.endsWith(".png") || url.endsWith(".jpg")) {
+    //                 caches.open("v1").then(cache => {
+    //                     cache.put(event.request, response);
+    //                 });
+    //             }
+
+    //             return response;
+    //         }).catch(() => {
+    //             return caches.match(event.request.url);
+    //         }))
+    // );
 });
+
+function isImage(url) {
+    return url.endsWith(".png") || url.endsWith(".jpg");
+}
