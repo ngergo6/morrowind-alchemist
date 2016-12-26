@@ -1,13 +1,14 @@
 import * as React from "react";
+import { Column, ColumnProps, ColumnState } from "./column";
 
-export interface ImageColumnProps {
-    property: string;
-    header: string;
+export interface ImageColumnProps extends ColumnProps {
+    
 }
 
-export interface ImageColumnState {
+export interface ImageColumnState extends ColumnState {
 
 }
 
-export class ImageColumn extends React.Component<ImageColumnProps, ImageColumnState> {
+export class ImageColumn extends Column<ImageColumnProps, ImageColumnState> {
+    
 }

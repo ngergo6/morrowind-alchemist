@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Column, ColumnProps } from "./column";
+import { Column, ColumnProps, ColumnState } from "./column";
+import { TextColumn, TextColumnProps } from "./text-column";
 import { LinkColumn, LinkColumnProps } from "./link-column";
 import { ImageColumn, ImageColumnProps } from "./image-column";
 import { Link } from "react-router";
@@ -19,28 +20,32 @@ export class Table extends React.Component<TableProps, TableState> {
 
     private getRows() {
         return this.props.data.map((data: any, i: number) => {
-            const rows: any[] = [];
+            const columns: any[] = [];
+            let hasDelegatedClick: boolean = false;
 
-            const columns = React.Children.forEach(this.props.children, (child: React.ReactChild, j: number) => {
-                const ch = child as IRChild;
+            React.Children.forEach(this.props.children, (child: React.ReactChild, j: number) => {
+                const ch: IRChild = child as IRChild;
 
-                if (ch.type === Column) {
-                    const col = ch as IRChildP<ColumnProps>;
-                    rows.push(this.getColumn(data, col, j));
+                if (ch.type === TextColumn) {
+                    const col = ch as IRChildP<TextColumnProps>;
+                    columns.push(this.getTextColumn(data, col, j));
                 } else if (ch.type === LinkColumn) {
                     const col = ch as IRChildP<LinkColumnProps>;
-                    rows.push(this.getLinkColumn(data, col, j));
+                    if (col.props.captureFromRow) {
+                        hasDelegatedClick = true;
+                    }
+                    columns.push(this.getLinkColumn(data, col, j));
                 } else if (ch.type === ImageColumn) {
                     const col = ch as IRChildP<ImageColumnProps>;
-                    rows.push(this.getImageColumn(data, col, j));
+                    columns.push(this.getImageColumn(data, col, j));
                 }
             });
 
-            return <tr key={i}>{rows}</tr>;
+            return <tr key={i} onClick={hasDelegatedClick ? this.delegateClick.bind(this) : undefined}>{columns}</tr>;
         });
     }
 
-    private getColumn(data: any, col: IRChildP<ColumnProps>, key: number) {
+    private getTextColumn(data: any, col: IRChildP<TextColumnProps>, key: number) {
         return <td key={key}>{data[col.props.property].toString()}</td>
     }
 
@@ -88,15 +93,19 @@ export class Table extends React.Component<TableProps, TableState> {
         return result;
     }
 
+    private delegateClick(event: React.SyntheticEvent) {
+        
+    }
+
     public render() {
-        const columns = this.props.children as Column[];
+        const columns = this.props.children as Column<ColumnProps, ColumnState>[];
         const children = React.Children.toArray(this.props.children);
 
-        const headers = columns.map((col: Column, i: number) => <th key={i}>{col.props.header}</th>);
+        const headers = columns.map((col: Column<ColumnProps, ColumnState>, i: number) => <th key={i}>{col.props.header}</th>);
         const rows = this.getRows();
 
         return (
-            <table className="table">
+            <table className="table table-hover">
                 <thead>
                     <tr>
                         {headers}

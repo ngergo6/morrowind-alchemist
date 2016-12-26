@@ -9,7 +9,7 @@ import {
 } from "./data/ingridients";
 import {
     Table,
-    Column,
+    TextColumn,
     ImageColumn,
     LinkColumn
 } from "./components/table";
@@ -78,8 +78,8 @@ export class EffectPage extends React.Component<EffectPageProps, EffectPageState
                     <Table data={this.state.ingridients}>
                         <ImageColumn header="" property="logo" />
                         <LinkColumn header="Name" property="title" linkTo="ingridient/{name}" />
-                        <Column header="Value" property="value" />
-                        <Column header="Weight" property="weight" />
+                        <TextColumn header="Value" property="value" />
+                        <TextColumn header="Weight" property="weight" />
                     </Table>
                 </div>
 

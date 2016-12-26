@@ -10,7 +10,7 @@ import {
 } from "./data/ingridients";
 import {
     Table,
-    Column,
+    TextColumn,
     LinkColumn,
     ImageColumn
 } from "./components/table";
@@ -77,8 +77,8 @@ export class IngridientPage extends React.Component<IngridientPageProps, Ingridi
                     <Table data={this.state.effects}>
                         <ImageColumn header="" property="logo" />
                         <LinkColumn header="Effect" linkTo="/effect/{name}" property="title" />
-                        <Column header="School" property="school" />
-                        <Column header="Harmful" property="isHarmful"/>
+                        <TextColumn header="School" property="school" />
+                        <TextColumn header="Harmful" property="isHarmful"/>
                     </Table>
                 </div>
             </div>

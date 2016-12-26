@@ -9,6 +9,6 @@ export interface ColumnState {
 
 }
 
-export class Column extends React.Component<ColumnProps, ColumnState> {
+export abstract class Column<TColumnProps extends ColumnProps, TColumnState extends ColumnState> extends React.Component<TColumnProps, TColumnState> {
     
 }

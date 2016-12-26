@@ -5,7 +5,7 @@ import {
     IEffect
 } from "./data/effects";
 import {
-    Table, Column, LinkColumn, ImageColumn
+    Table, TextColumn, LinkColumn, ImageColumn
 } from "./components/table";
 
 export interface EffectsPageProps {
@@ -52,9 +52,9 @@ export class EffectsPage extends React.Component<EffectsPageProps, EffectsPageSt
                 <div className="row">
                     <Table data={this.state.displayEffects}>
                         <ImageColumn header="" property="logo" />
-                        <LinkColumn header="Name" property="title" linkTo="effect/{name}" />
-                        <Column header="School" property="school" />
-                        <Column header="Harmful" property="isHarmful" />
+                        <LinkColumn header="Name" property="title" linkTo="effect/{name}" captureFromRow={true} />
+                        <TextColumn header="School" property="school" />
+                        <TextColumn header="Harmful" property="isHarmful" />
                     </Table>
                 </div>
             </div>

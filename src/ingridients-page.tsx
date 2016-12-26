@@ -5,7 +5,7 @@ import {
     IIngridient
 } from "./data/ingridients";
 import {
-    Table, Column, LinkColumn, ImageColumn
+    Table, TextColumn, LinkColumn, ImageColumn
 } from "./components/table";
 
 export interface IngridientsPageProps {
@@ -52,9 +52,9 @@ export class IngridientsPage extends React.Component<IngridientsPageProps, Ingri
                 <div className="row">
                     <Table data={this.state.displayIngridients}>
                         <ImageColumn header="" property="logo" />
-                        <LinkColumn header="Name" property="title" linkTo="ingridient/{name}" />
-                        <Column header="Value" property="value" />
-                        <Column header="Weight" property="weight" />
+                        <LinkColumn header="Name" property="title" linkTo="ingridient/{name}" captureFromRow={true} />
+                        <TextColumn header="Value" property="value" />
+                        <TextColumn header="Weight" property="weight" />
                     </Table>
                 </div>
             </div>
